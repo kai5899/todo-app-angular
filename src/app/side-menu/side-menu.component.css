@@ -1,0 +1,10 @@
+.sideMenu{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-top-right-radius: 24px ;
+    border-bottom-right-radius: 24px ;
+    overflow: hidden;
+    padding: 20px;
+
+}

@@ -1,0 +1,15 @@
+.horizantalDivider{
+    width: 80%;
+    height: 5px;
+    background-color: var(--darkViolet);
+    border-radius: 18px;
+}
+
+
+.globalContainer{
+    width: 100%;
+    height: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

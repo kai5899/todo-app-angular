@@ -1,0 +1,26 @@
+:root{
+    --platinum: #E5E4E2;
+    --darkViolet : #A18AFF;
+    --lightViolet : #CA8BFE;
+    --cyan:#3FD4F4;
+    --customPink : #FD99AF;
+    --darkGrey : #717082;
+    --gold : #FAC608;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}

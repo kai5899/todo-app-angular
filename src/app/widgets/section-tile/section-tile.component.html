@@ -1,0 +1,28 @@
+<div class="globalSection">
+  <div class="sectionHeader">
+    <div class="icon" [ngClass]="{'activeIcon': isSelected(title)}">
+      <i class="material-icons" >{{ icon }}</i>
+    </div>
+
+    <div class="title" [ngClass]="{'activeTitle': isSelected(title)}">
+      {{ title }}
+    </div>
+  </div>
+
+  <div class="children">
+    @for (child of children; track child; let index = $index) {
+    <div class="child">
+      <div class="dot" [style.background-color] = "child.color" ></div>
+      <div class="childTitle" >{{ child.title }}</div>
+    </div>
+    @if (index===children.length-1 && children.length!=0) {
+        <div class="child">
+            <div class="dotPlus">+</div>
+            <div class="childFilter" >Add Filter</div>
+          </div>
+    }
+    }
+
+    
+  </div>
+</div>

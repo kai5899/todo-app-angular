@@ -1,0 +1,27 @@
+<div class="globalHome">
+  <h1>Today's Tasks</h1>
+  <div class="home">
+    <div class="nextTask">
+      <div class="ballRow">
+        @for (item of ["#FD99AF","#3FD4F4","#FAC608"].reverse(); track item) {
+        <div class="ball" [style.backgroundColor]="item"></div>
+        }
+      </div>
+
+      <div class="textInputSpace">What's on the list today ?</div>
+
+      <div class="actionsList">
+        <i class="material-icons">date_range</i>
+        <i class="material-icons">watch</i>
+      </div>
+    </div>
+
+    <div class="tasks">
+      @for (tasky of tasks; track tasky) {
+        <div class="task">
+          <app-task-widget [task]="tasky"></app-task-widget>
+        </div>
+      }
+    </div>
+  </div>
+</div>

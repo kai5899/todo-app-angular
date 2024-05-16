@@ -1,0 +1,9 @@
+<div class="tiles">
+  @for (sect of sections; track $index) {
+  <app-section-tile
+    [title]="sect.title"
+    [icon]="sect.icon"
+    [children]="sect.children"
+  ></app-section-tile>
+  }
+</div>

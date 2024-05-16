@@ -1,0 +1,61 @@
+
+.task{
+    width: 100%;
+    height: 100%;
+    background-color: var(--darkViolet);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+
+.ball{
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+.textInputSpace{
+    margin-left: 20px;
+    width: 70%;
+    color: white;
+    opacity: 0.8;
+}
+
+.actionsList{
+    width: 20%;
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.checked{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    border: 3px solid var(--darkGrey);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checked:hover{
+    cursor: pointer;
+}
+
+.time{
+    text-align: start;
+    font-weight: bold;
+}
+
+.activeCheck{
+    border: 3px solid var(--customPink);
+    color: var(--customPink);
+    font-weight: bold;
+}
